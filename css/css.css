@@ -1,0 +1,232 @@
+* {
+    font-family: "poppins" , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* H E A D E R*/
+
+.phone {
+    display: none;
+}
+
+.video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+}
+
+nav img {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+}
+
+nav ul {
+    display: flex;
+    position: absolute;
+    right: 10%;
+    top: 7%;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(220 35 200);
+}
+
+nav ul li .unique {
+    background-color: purple;
+    background-color: purple;
+    padding: 15px;
+}
+
+nav ul li .unique:hover {
+    color: white;
+}
+
+.search h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 55px;
+    position: absolute;
+    top: 40%;
+    left: 33%;
+}
+
+.search form {
+    position: absolute;
+    top: 55%;
+    left: 33%;
+}
+
+.search form {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.search form input {
+    border: none;
+    border-radius: 10%;
+    outline: none;
+    padding: 20px 210px 20px 10px;
+    font-size: 18px;
+}
+
+.search form button {
+    border: none;
+    background-color: purple;
+    padding: 15px;
+    color: white;
+    border-radius: 10%;
+}
+
+.search span {
+    color: purple;
+}
+
+.search form i {
+    margin-top: 21px;
+    color: #757575;
+}
+
+.icons {
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 33%;
+}
+
+.icons div {
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    margin-right: 55px;
+}
+
+.icons i {
+    font-size: 3.5rem;
+    color: rgb(127 1 110 / 88%);
+}
+
+.icons i:hover {
+    color: rgb(220 35 200);
+}
+
+
+.copy {
+    position: absolute;
+    bottom: 2%;
+    color: white;
+    left: 44%;
+}
+
+.menu {
+    display: none;
+
+}
+
+/* H E A D E R*/
+
+
+
+@media (max-width: 767px) {
+
+    .video {
+        display: none;;
+    }
+
+    .phone {
+        display: block;
+        width: 391px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        position: absolute;
+        top: 5%;
+    }
+
+    .menu i {
+        color: white;
+        font-size: 2.3rem;
+        position: absolute;
+        margin-left: 325px;
+    }
+
+    .menu ul {
+        display: none;
+        list-style: none;
+    }
+
+    .menu ul li {
+        padding-bottom: 25px;
+        padding: 45px 0px 0px 162px;
+    }
+
+    .menu ul a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .menu a:hover + ul { 
+        display: block;
+        background-color: #800080c2;
+        height: 303px;
+        width: 391px;
+    }
+
+    .search h1 {
+    font-weight: bold;
+    font-size: 36px;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    }
+
+    .search form { 
+        width: 350px;
+        margin-left: -112px;
+    }
+
+    .search form input {
+    border: none;
+    border-radius: 10%;
+    outline: none;
+    padding: 3px 2px 2px 10px;
+    font-size: 18px;
+    }
+
+    .icons {
+        left: 8%;
+    }
+
+    .icons i {
+        font-size: 2rem;
+    }
+
+    .icons div {
+        margin-right: 0px;
+    }
+}
+
